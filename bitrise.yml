@@ -43,5 +43,5 @@ workflows:
         inputs:
         - content: |-
             #!/usr/bin/env bash
-
+            
             echo "Simulate running tests"
