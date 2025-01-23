@@ -35,10 +35,7 @@ workflows:
     triggers:
       pull_request:
       - draft_enabled: false
-<<<<<<< HEAD
         target_branch: "main"
-=======
->>>>>>> c190e30 (Added configuration for Bitrise)
     steps:
     - activate-ssh-key@4:
         run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
